@@ -6,13 +6,21 @@
     #player, #background{
       display: none;
     }
+
   </style>
 </head>
 <body>
-  <img id = "background" src="starFox-map.png">
-  <img id= "player" src="fox-head.png">
-  <canvas id="canvas" width="" height=""></canvas>
+  <img id = "trump" src= "fox-head.png">
+  <img id = "background" src= "starFox-map.png">
+  <img id= "player" src= "movingplayerf1.png">
+  <img class="hideyokids" id= "playerf1" src="movingplayerf1.png">
+  <img class="hideyokids" id= "playerf2" src="movingplayerf2.png">
+  <img class="hideyokids" id= "playerf3" src="movingplayerf3.png">
+  <canvas id="canvas"></canvas>
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="enemy.js"></script>
+  <script src="player.js"></script>
   <script src="main.js"></script>
+  <script src="controls.js"></script>
  </body>
 </html>
