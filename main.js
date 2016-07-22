@@ -7,11 +7,7 @@ c.height = window.innerHeight*.9;
 
 function animate(){
 ctx.drawImage(background, 0, 0);
-if (player.dead){
-  alert("You suck!");
-  window.location.href = "https://www.youtube.com/watch?v=WWum0VRc6MI";
-  return;
-}
+
 enemy.update();
 enemy.render();
 player.update();
