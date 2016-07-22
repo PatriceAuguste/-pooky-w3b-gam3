@@ -27,4 +27,4 @@ $(document).on('touchstart', function(e){
   if (touchX > player.x) player.velX = 5;
   if (touchY < player.y) player.velY = -5;
   if (touchY > player.y) player.velY = 5
-}
+});
